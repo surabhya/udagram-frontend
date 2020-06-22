@@ -27,6 +27,6 @@ spec:
             memory: "1024Mi"
             cpu: "500m"       
         ports:
-        - containerPort: 80
+        - containerPort: 8100
       restartPolicy: Always
 
