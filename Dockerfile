@@ -10,7 +10,6 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
-RUN ionic build
 
 # Copy app source
 COPY . .
